@@ -1,10 +1,10 @@
 # Projeto InVino - Sistema de Monitoramento de Luminosidade
 
-O InVino é um sistema desenvolvido em um Arduino para o controle e monitoramento de luz em ambientes controlados. O projeto utiliza um sensor de luminosidade (LDR) e fornece alertas visuais e sonoros baseados em faixas de seguranca pré-definidas.
+O InVino é um sistema desenvolvido em um Arduino para o controle e monitoramento de luz em ambientes controlados. O projeto utiliza um sensor de luminosidade (LDR) e fornece alertas visuais e sonoros baseados em faixas de segurança pré-definidas.
 
 -----
 
-## Descricao do Projeto
+## Descrição do Projeto
 
 O sistema realiza a leitura analógica do ambiente e processa os dados utilizando uma média móvel de 10 amostras para evitar leituras instáveis. O feedback e fornecido através de um display LCD, três LEDs coloridos e um buzzer.
 
@@ -32,7 +32,7 @@ Abaixo estão os pinos utilizados no Arduino:
 
 ## Dependências
 
-- Biblioteca: LiquidCrystal.h (Já instalada por padrõo na Arduino IDE)
+- Biblioteca: LiquidCrystal.h (Já instalada por padrão na Arduino IDE)
 
 -----
 
